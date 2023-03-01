@@ -4,6 +4,8 @@ import Navigation from "./components/Navigation/Navigation";
 import Logo from "./components/Logo/Logo";
 import ImageLink from "./components/ImageLink/ImageLink";
 import Rank from "./components/Rank/Rank";
+// import Particles from "react-particles-js";
+
 function App() {
   return (
     <div className="App">
