@@ -8,6 +8,9 @@ import Rank from "./components/Rank/Rank";
 function onInputChange(event) {
   console.log(event.target.value);
 }
+function onSubmit() {
+  // console.log("click");
+}
 
 function App() {
   return (
@@ -16,7 +19,7 @@ function App() {
       <Rank />
       <Logo />
 
-      <ImageLink onInputChange={onInputChange} />
+      <ImageLink onInputChange={onInputChange} onSubmit={onSubmit} />
     </div>
   );
 }
